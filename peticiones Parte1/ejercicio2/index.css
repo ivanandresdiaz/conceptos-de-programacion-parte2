@@ -1,0 +1,22 @@
+html{
+    font-size: 0.625rem;
+}
+.padre{
+    width: 100%;
+    overflow-x: scroll;
+}
+.container{
+    display: grid;
+    gap: 5px;
+    grid-auto-flow: column;
+    width: 100%;
+    height: auto;
+}
+.scroll-item img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.button{
+    display: block;
+}
